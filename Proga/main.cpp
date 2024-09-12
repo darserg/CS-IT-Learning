@@ -69,13 +69,13 @@ int sixteenTask() {
 }
 
 int main() {
-    cout<<"First task: \n";
+    cout<<"First task: \n \n";
     firstTask();
-    cout<<"Sixth task: \n";
+    cout<<"Sixth task: \n \n";
     sixTask();
-    cout<<"Eleventh task: \n";
+    cout<<"Eleventh task: \n \n";
     elevenTask();
-    cout<<"Sixteenth task: \n";
+    cout<<"Sixteenth task: \n \n";
     sixteenTask();
     return 0;
 }
