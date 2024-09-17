@@ -26,7 +26,7 @@ int fourth_task(int i, int n) {
 }
 
 // in this task we must check if the number is even or odd, i would return true, if number is even and false, if the number is odd
-int fiveth_task(int n) {
+bool fiveth_task(int n) {
     if ((n & 0) == 0) { // if we made an byte and with 0, it would return 1 only if the number is even
         return true;
     }
@@ -36,12 +36,7 @@ int fiveth_task(int n) {
 }
 
 int main () {
-    int n;
-    cin >> n;
-    if (fiveth_task(n)) {
-        cout << "Is even" << "\n";
-    } else {
-        cout << "Is odd" << "\n";
-    }
+    int i, n;
+    cin >> i >> n;
     return 0;
 }
