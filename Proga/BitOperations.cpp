@@ -30,7 +30,7 @@ bool fiveth_task(int n) {
     if ((n & 0) == 0) { // if we made an byte and with 0, it would return 1 only if the number is even
         return true;
     }
-    else { // another type is if number is odd
+    else { // another case is if number is odd
         return false;
     }
 }
