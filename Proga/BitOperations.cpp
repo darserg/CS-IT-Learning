@@ -16,7 +16,7 @@ int second_task(int i, int n) {
 // in i'th position it's "0" and all another chars is like in n number
 int third_task(int i, int n)  {
     int temp = 1 << i; // Move a bit with "1" to i position, to create a number, like 100000 or something like this, number of "0" depends on i
-    return n | ~temp; // Here we use a byte or, to create a number with with byte will "1" and all other like in the n number (~ - byte negative (creates a different number with 0 and '1')
+    return n & ~temp; // Here we use a byte or, to create a number with with byte will "1" and all other like in the n number (~ - byte negative (creates a different number with 0 and '1')
 }
 
 // in this task we must change an i'th byte and all other bytes will be like in the n number
