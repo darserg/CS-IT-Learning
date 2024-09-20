@@ -3,8 +3,8 @@ using namespace std;
 
 
 // here we need to make a two pow of number i
-int first_task(int n) {
-    return 1 << n; // It will move a bit left to n positions;
+int first_task(int i) {
+    return 1 << i; // It will move a bit left to n positions;
 }
 
 // in i'th postion it's "1" and all another chars is like in n number
@@ -26,17 +26,30 @@ int fourth_task(int i, int n) {
 }
 
 // in this task we must check if the number is even or odd, i would return true, if number is even and false, if the number is odd
-bool fiveth_task(int n) {
-    if ((n & 0) == 0) { // if we made an byte and with 0, it would return 1 only if the number is even
-        return true;
+int fiveth_task(int n) {
+    // imagine, that n = 2, in two-digits system it's 10
+    // so if we use |, it would be 11 = 3, (n | 1) is bigger to n
+    if ((n | 1) > n) { // if we made this operation with od number, it wouldn't change, so if number is bigger, it's even
+        cout << "The number is even \n";
     }
-    else { // another case is if number is odd
-        return false;
+    else {
+        cout << "The number is odd \n";
     }
+    return 0;
 }
 
 int main () {
-    int i, n;
-    cin >> i >> n;
+    int i, n; // Declaration of int i and n
+    cout << "Enter n: "; // Modified string to simply enter the value for n
+    cin >> n; // Enter a value for n
+    cout << "\nEnter i: "; // Modification to simply enter the value for i
+    cin >> i; // Enter a value for i
+    // Here will use special function for every task to make code more readable
+    cout << "#1: Here is 2 in grade of i " << first_task(i) << "\n"; // Function call for first task
+    cout << "#2: Here is n with 1 in at the n-th position " << second_task(i, n) << "\n"; // Fuction call for second task
+    cout << "#3: Here is n with 0 in at the n-th position " << third_task(i, n) << "\n"; // Function call for third task
+    cout << "#4: Here is n with switched bit at the n-th position " << fourth_task(i, n) << "\n"; // Function call for fourth task
+    cout << "#5: Here is a check for the even or odd number with bit operations ";
+    fiveth_task(n); // Function call for fiveth task
     return 0;
 }
