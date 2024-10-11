@@ -38,18 +38,18 @@ int fiveth_task(int n) {
     return 0;
 }
 
-int main () {
-    int i, n; // Declaration of int i and n
-    cout << "Enter n: "; // Modified string to simply enter the value for n
-    cin >> n; // Enter a value for n
-    cout << "\nEnter i: "; // Modification to simply enter the value for i
-    cin >> i; // Enter a value for i
-    // Here will use special function for every task to make code more readable
-    cout << "#1: Here is 2 in grade of i " << first_task(i) << "\n"; // Function call for first task
-    cout << "#2: Here is n with 1 in at the n-th position " << second_task(i, n) << "\n"; // Fuction call for second task
-    cout << "#3: Here is n with 0 in at the n-th position " << third_task(i, n) << "\n"; // Function call for third task
-    cout << "#4: Here is n with switched bit at the n-th position " << fourth_task(i, n) << "\n"; // Function call for fourth task
-    cout << "#5: Here is a check for the even or odd number with bit operations ";
-    fiveth_task(n); // Function call for fiveth task
-    return 0;
-}
+//int main() {
+//    int i, n; // Declaration of int i and n
+//    cout << "Enter n: "; // Modified string to simply enter the value for n
+//    cin >> n; // Enter a value for n
+//    cout << "\nEnter i: "; // Modification to simply enter the value for i
+//    cin >> i; // Enter a value for i
+//    // Here will use special function for every task to make code more readable
+//    cout << "#1: Here is 2 in grade of i " << first_task(i) << "\n"; // Function call for first task
+//    cout << "#2: Here is n with 1 in at the n-th position " << second_task(i, n) << "\n"; // Fuction call for second task
+//    cout << "#3: Here is n with 0 in at the n-th position " << third_task(i, n) << "\n"; // Function call for third task
+//    cout << "#4: Here is n with switched bit at the n-th position " << fourth_task(i, n) << "\n"; // Function call for fourth task
+//    cout << "#5: Here is a check for the even or odd number with bit operations ";
+//    fiveth_task(n); // Function call for fiveth task
+//    return 0;
+//}

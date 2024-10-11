@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6353E44C2C9708DB0037B0EF /* BitOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6353E44A2C9708DB0037B0EF /* BitOperations.cpp */; };
-		6387BBAC2C9206190036956C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6387BBAB2C9206190036956C /* main.cpp */; };
-		63AAFFD72C93163F00875828 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63AAFFD52C93163F00875828 /* test.cpp */; };
+		6387BBAC2C9206190036956C /* BasicOperators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6387BBAB2C9206190036956C /* BasicOperators.cpp */; };
+		63B77AE42CB7C3E700B49605 /* Cycles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63B77AE32CB7C3E700B49605 /* Cycles.cpp */; };
+		63E992712CA6EAFE00B6F874 /* Tasks_for_if_else.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63E992702CA6EAFE00B6F874 /* Tasks_for_if_else.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,9 @@
 /* Begin PBXFileReference section */
 		6353E44A2C9708DB0037B0EF /* BitOperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BitOperations.cpp; sourceTree = "<group>"; };
 		6387BBA82C9206190036956C /* Proga */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proga; sourceTree = BUILT_PRODUCTS_DIR; };
-		6387BBAB2C9206190036956C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		63AAFFD52C93163F00875828 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		6387BBAB2C9206190036956C /* BasicOperators.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicOperators.cpp; sourceTree = "<group>"; };
+		63B77AE32CB7C3E700B49605 /* Cycles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cycles.cpp; sourceTree = "<group>"; };
+		63E992702CA6EAFE00B6F874 /* Tasks_for_if_else.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tasks_for_if_else.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,10 @@
 		6387BBAA2C9206190036956C /* Proga */ = {
 			isa = PBXGroup;
 			children = (
-				6387BBAB2C9206190036956C /* main.cpp */,
-				63AAFFD52C93163F00875828 /* test.cpp */,
+				6387BBAB2C9206190036956C /* BasicOperators.cpp */,
 				6353E44A2C9708DB0037B0EF /* BitOperations.cpp */,
+				63E992702CA6EAFE00B6F874 /* Tasks_for_if_else.cpp */,
+				63B77AE32CB7C3E700B49605 /* Cycles.cpp */,
 			);
 			path = Proga;
 			sourceTree = "<group>";
@@ -95,7 +98,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					6387BBA72C9206190036956C = {
 						CreatedOnToolsVersion = 15.4;
@@ -125,9 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6387BBAC2C9206190036956C /* main.cpp in Sources */,
+				63E992712CA6EAFE00B6F874 /* Tasks_for_if_else.cpp in Sources */,
+				6387BBAC2C9206190036956C /* BasicOperators.cpp in Sources */,
+				63B77AE42CB7C3E700B49605 /* Cycles.cpp in Sources */,
 				6353E44C2C9708DB0037B0EF /* BitOperations.cpp in Sources */,
-				63AAFFD72C93163F00875828 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +172,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -229,6 +234,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -253,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

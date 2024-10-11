@@ -73,7 +73,7 @@ int sixteenTask()
     return 0;                                                                                               // return 0 as succesfully passed task
 }
 
-int base()
+int main()
 {
     cout << "First task: \n \n";
     firstTask();
