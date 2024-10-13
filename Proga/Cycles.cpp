@@ -83,10 +83,10 @@ int sixteen_task() {
     return 0;
 }
 
-//int main () {
-//    third_task();
-//    seven_task();
-//    eleven_task();
-//    sixteen_task();
-//    return 0;
-//}
+int main () {
+    third_task();
+    seven_task();
+    eleven_task();
+    sixteen_task();
+    return 0;
+}

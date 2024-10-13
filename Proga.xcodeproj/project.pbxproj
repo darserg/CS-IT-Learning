@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630BB0A32CBC321000722B36 /* Recurrent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 630BB0A22CBC321000722B36 /* Recurrent.cpp */; };
 		6353E44C2C9708DB0037B0EF /* BitOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6353E44A2C9708DB0037B0EF /* BitOperations.cpp */; };
 		6387BBAC2C9206190036956C /* BasicOperators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6387BBAB2C9206190036956C /* BasicOperators.cpp */; };
 		63B77AE42CB7C3E700B49605 /* Cycles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63B77AE32CB7C3E700B49605 /* Cycles.cpp */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		630BB0A22CBC321000722B36 /* Recurrent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recurrent.cpp; sourceTree = "<group>"; };
 		6353E44A2C9708DB0037B0EF /* BitOperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BitOperations.cpp; sourceTree = "<group>"; };
 		6387BBA82C9206190036956C /* Proga */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proga; sourceTree = BUILT_PRODUCTS_DIR; };
 		6387BBAB2C9206190036956C /* BasicOperators.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicOperators.cpp; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				6353E44A2C9708DB0037B0EF /* BitOperations.cpp */,
 				63E992702CA6EAFE00B6F874 /* Tasks_for_if_else.cpp */,
 				63B77AE32CB7C3E700B49605 /* Cycles.cpp */,
+				630BB0A22CBC321000722B36 /* Recurrent.cpp */,
 			);
 			path = Proga;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				63E992712CA6EAFE00B6F874 /* Tasks_for_if_else.cpp in Sources */,
 				6387BBAC2C9206190036956C /* BasicOperators.cpp in Sources */,
+				630BB0A32CBC321000722B36 /* Recurrent.cpp in Sources */,
 				63B77AE42CB7C3E700B49605 /* Cycles.cpp in Sources */,
 				6353E44C2C9708DB0037B0EF /* BitOperations.cpp in Sources */,
 			);
